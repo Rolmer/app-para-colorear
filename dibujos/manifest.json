@@ -1,0 +1,11 @@
+[
+  { "nombre": "princess-01", "titulo": "Princesa con corona", "categoria": "Princesas" },
+  { "nombre": "princess-02", "titulo": "Princesa con coleta y flor", "categoria": "Princesas" },
+  { "nombre": "princess-03", "titulo": "Princesa con capa y varita", "categoria": "Princesas" },
+  { "nombre": "castillo-01", "titulo": "Castillo encantado", "categoria": "Reino mágico" },
+  { "nombre": "carroza-01", "titulo": "Carroza de calabaza", "categoria": "Reino mágico" },
+  { "nombre": "corona-01", "titulo": "Corona real", "categoria": "Reino mágico" },
+  { "nombre": "unicornio-01", "titulo": "Unicornio mágico", "categoria": "Amigos" },
+  { "nombre": "rana-01", "titulo": "Rana príncipe", "categoria": "Amigos" },
+  { "nombre": "gato-01", "titulo": "Gatito con corona", "categoria": "Amigos" }
+]

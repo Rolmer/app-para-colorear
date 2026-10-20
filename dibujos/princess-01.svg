@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <rect class="rg fondo" x="4" y="4" width="392" height="512" rx="18"/>
+  <!-- decoracion de fondo -->
+  <path class="rg deco" transform="translate(56,168)" d="M0,-22 L5.5,-7.5 L21,-6.8 L8.9,2.9 L13,17.8 L0,9.4 L-13,17.8 L-8.9,2.9 L-21,-6.8 L-5.5,-7.5 Z"/>
+  <path class="rg deco" transform="translate(346,150)" d="M0,-22 L5.5,-7.5 L21,-6.8 L8.9,2.9 L13,17.8 L0,9.4 L-13,17.8 L-8.9,2.9 L-21,-6.8 L-5.5,-7.5 Z"/>
+  <path class="rg deco" transform="translate(50,286)" d="M0,5 C-16,-9 -9,-23 0,-12 C9,-23 16,-9 0,5 Z"/>
+  <path class="rg deco" transform="translate(350,272)" d="M0,5 C-16,-9 -9,-23 0,-12 C9,-23 16,-9 0,5 Z"/>
+  <path class="rg deco" transform="translate(340,372)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <path class="rg deco" transform="translate(58,382)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <!-- cabello trasero -->
+  <path class="rg" d="M200,86 C126,86 110,150 110,206 C110,252 102,300 116,344 L284,344 C298,300 290,252 290,206 C290,150 274,86 200,86 Z"/>
+  <!-- orejas -->
+  <circle class="rg" cx="150" cy="172" r="11"/>
+  <circle class="rg" cx="250" cy="172" r="11"/>
+  <!-- cara -->
+  <ellipse class="rg" cx="200" cy="170" rx="52" ry="60"/>
+  <!-- flequillo -->
+  <path class="rg" d="M200,86 C148,86 136,122 141,160 C168,132 186,126 200,126 C214,126 232,132 259,160 C264,122 252,86 200,86 Z"/>
+  <!-- rasgos -->
+  <ellipse class="rg" cx="181" cy="174" rx="11" ry="13"/>
+  <ellipse class="rg" cx="219" cy="174" rx="11" ry="13"/>
+  <circle class="rg" cx="182" cy="176" r="5"/>
+  <circle class="rg" cx="220" cy="176" r="5"/>
+  <path class="ln" d="M169,152 Q181,145 193,152"/>
+  <path class="ln" d="M207,152 Q219,145 231,152"/>
+  <path class="ln" d="M197,184 Q205,190 197,193"/>
+  <path class="ln" d="M186,206 Q200,218 214,206"/>
+  <circle class="rg" cx="164" cy="198" r="9"/>
+  <circle class="rg" cx="236" cy="198" r="9"/>
+  <!-- pendientes -->
+  <circle class="rg" cx="150" cy="190" r="7"/>
+  <circle class="rg" cx="250" cy="190" r="7"/>
+  <!-- cuello -->
+  <path class="rg" d="M186,224 L186,248 L214,248 L214,224 Z"/>
+  <!-- corpinio -->
+  <path class="rg" d="M186,246 C172,248 158,250 152,260 L148,322 L252,322 L248,260 C242,250 228,248 214,246 C210,261 190,261 186,246 Z"/>
+  <!-- mangas -->
+  <ellipse class="rg" cx="140" cy="268" rx="31" ry="27"/>
+  <ellipse class="rg" cx="260" cy="268" rx="31" ry="27"/>
+  <!-- falda -->
+  <path class="rg" d="M148,320 L252,320 C302,360 322,432 324,472 L76,472 C78,432 98,360 148,320 Z"/>
+  <path class="ln" d="M112,424 Q200,448 288,424"/>
+  <path class="ln" d="M132,378 Q200,398 268,378"/>
+  <!-- zapatos -->
+  <ellipse class="rg" cx="158" cy="488" rx="24" ry="13"/>
+  <ellipse class="rg" cx="242" cy="488" rx="24" ry="13"/>
+  <!-- brazos y manos por delante del vestido -->
+  <path class="rg" d="M118,284 C104,318 95,352 90,384 L108,389 C115,356 126,322 137,292 Z"/>
+  <path class="rg" d="M282,284 C296,318 305,352 310,384 L292,389 C285,356 274,322 263,292 Z"/>
+  <circle class="rg" cx="90" cy="396" r="16"/>
+  <circle class="rg" cx="310" cy="396" r="16"/>
+  <!-- corona -->
+  <path class="rg" d="M148,88 L166,88 L157,56 Z"/>
+  <path class="rg" d="M234,88 L252,88 L243,56 Z"/>
+  <path class="rg" d="M182,88 L218,88 L200,46 Z"/>
+  <circle class="rg" cx="157" cy="54" r="7"/>
+  <circle class="rg" cx="243" cy="54" r="7"/>
+  <circle class="rg" cx="200" cy="42" r="8"/>
+  <path class="rg" d="M144,86 L256,86 L256,106 Q200,116 144,106 Z"/>
+  <circle class="rg" cx="169" cy="96" r="5"/>
+  <circle class="rg" cx="200" cy="98" r="6"/>
+  <circle class="rg" cx="231" cy="96" r="5"/>
+</svg>

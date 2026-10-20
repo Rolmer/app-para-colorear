@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <rect class="rg fondo" x="4" y="4" width="392" height="512" rx="18"/>
+  <!-- decoracion -->
+  <path class="rg deco" transform="translate(66,74)" d="M0,-24 L6,-8.2 L22.8,-7.4 L9.7,3.1 L14.1,19.4 L0,10.2 L-14.1,19.4 L-9.7,3.1 L-22.8,-7.4 L-6,-8.2 Z"/>
+  <path class="rg deco" transform="translate(338,64)" d="M0,-18 L4.5,-6.2 L17,-5.6 L7.4,2.4 L10.7,14.6 L0,7.7 L-10.7,14.6 L-7.4,2.4 L-17,-5.6 L-4.5,-6.2 Z"/>
+  <path class="rg deco" transform="translate(354,168)" d="M0,5 C-16,-9 -9,-23 0,-12 C9,-23 16,-9 0,5 Z"/>
+  <path class="rg deco" transform="translate(46,180)" d="M0,5 C-16,-9 -9,-23 0,-12 C9,-23 16,-9 0,5 Z"/>
+  <path class="rg deco" transform="translate(352,286)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <path class="rg deco" transform="translate(48,300)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <path class="rg deco" transform="translate(120,132)" d="M0,-13 L3.9,-4.4 L13,-4 L5.5,1.8 L8,11.3 L0,5.9 L-8,11.3 L-5.5,1.8 L-13,-4 L-3.9,-4.4 Z"/>
+  <path class="rg deco" transform="translate(284,126)" d="M0,-13 L3.9,-4.4 L13,-4 L5.5,1.8 L8,11.3 L0,5.9 L-8,11.3 L-5.5,1.8 L-13,-4 L-3.9,-4.4 Z"/>
+  <!-- picos de la corona -->
+  <path class="rg" d="M104,358 L104,320 L118,290 L138,330 L159,258 L180,330 L200,214 L220,330 L241,258 L262,330 L282,290 L296,320 L296,358 Z"/>
+  <circle class="rg" cx="118" cy="286" r="10"/>
+  <circle class="rg" cx="159" cy="254" r="10"/>
+  <circle class="rg" cx="200" cy="210" r="12"/>
+  <circle class="rg" cx="241" cy="254" r="10"/>
+  <circle class="rg" cx="282" cy="286" r="10"/>
+  <!-- aro de la corona -->
+  <path class="rg" d="M104,354 L296,354 L296,404 Q200,422 104,404 Z"/>
+  <circle class="rg" cx="134" cy="376" r="11"/>
+  <circle class="rg" cx="167" cy="378" r="9"/>
+  <circle class="rg" cx="200" cy="380" r="13"/>
+  <circle class="rg" cx="233" cy="378" r="9"/>
+  <circle class="rg" cx="266" cy="376" r="11"/>
+  <!-- cojin -->
+  <path class="rg" d="M76,436 Q200,410 324,436 L324,478 Q200,506 76,478 Z"/>
+  <circle class="rg" cx="76" cy="456" r="14"/>
+  <circle class="rg" cx="324" cy="456" r="14"/>
+  <path class="ln" d="M76,470 L70,486 M324,470 L330,486"/>
+  <path class="rg" transform="translate(150,452)" d="M0,4 C-12,-7 -7,-18 0,-9 C7,-18 12,-7 0,4 Z"/>
+  <path class="rg" transform="translate(250,452)" d="M0,4 C-12,-7 -7,-18 0,-9 C7,-18 12,-7 0,4 Z"/>
+</svg>

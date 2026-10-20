@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <rect class="rg fondo" x="4" y="4" width="392" height="512" rx="18"/>
+  <!-- decoracion -->
+  <path class="rg deco" transform="translate(330,86)" d="M0,-22 L5.5,-7.5 L21,-6.8 L8.9,2.9 L13,17.8 L0,9.4 L-13,17.8 L-8.9,2.9 L-21,-6.8 L-5.5,-7.5 Z"/>
+  <path class="rg deco" transform="translate(62,92)" d="M0,-18 L4.5,-6.2 L17,-5.6 L7.4,2.4 L10.7,14.6 L0,7.7 L-10.7,14.6 L-7.4,2.4 L-17,-5.6 L-4.5,-6.2 Z"/>
+  <path class="rg deco" transform="translate(352,236)" d="M0,5 C-16,-9 -9,-23 0,-12 C9,-23 16,-9 0,5 Z"/>
+  <path class="rg deco" transform="translate(46,246)" d="M0,5 C-16,-9 -9,-23 0,-12 C9,-23 16,-9 0,5 Z"/>
+  <path class="rg deco" transform="translate(348,360)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <path class="rg deco" transform="translate(52,372)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <!-- ovillo de lana -->
+  <circle class="rg" cx="78" cy="438" r="34"/>
+  <path class="ln" d="M56,418 C74,428 92,418 100,400"/>
+  <path class="ln" d="M50,442 C68,454 92,446 102,428"/>
+  <path class="ln" d="M60,462 C80,470 98,460 108,444"/>
+  <path class="ln" d="M108,444 C132,454 150,464 164,474"/>
+  <!-- cola -->
+  <path class="rg" d="M276,438 C318,436 338,398 320,368 C310,350 288,350 282,366 C292,360 306,364 308,380 C314,406 298,422 274,422 Z"/>
+  <!-- cuerpo -->
+  <path class="rg" d="M144,478 C144,418 168,378 200,378 C232,378 256,418 256,478 Z"/>
+  <ellipse class="rg" cx="200" cy="440" rx="32" ry="36"/>
+  <!-- patas -->
+  <ellipse class="rg" cx="164" cy="482" rx="22" ry="12"/>
+  <ellipse class="rg" cx="236" cy="482" rx="22" ry="12"/>
+  <path class="ln" d="M158,472 L156,492 M172,472 L174,492 M230,472 L228,492 M244,472 L246,492"/>
+  <!-- orejas -->
+  <path class="rg" d="M144,252 L128,192 L186,226 Z"/>
+  <path class="rg" d="M256,252 L272,192 L214,226 Z"/>
+  <path class="rg" d="M152,248 L143,208 L176,230 Z"/>
+  <path class="rg" d="M248,248 L257,208 L224,230 Z"/>
+  <!-- cabeza -->
+  <circle class="rg" cx="200" cy="300" r="74"/>
+  <ellipse class="rg" cx="170" cy="296" rx="14" ry="16"/>
+  <ellipse class="rg" cx="230" cy="296" rx="14" ry="16"/>
+  <circle class="rg" cx="171" cy="298" r="7"/>
+  <circle class="rg" cx="231" cy="298" r="7"/>
+  <circle class="rg" cx="167" cy="292" r="3"/>
+  <circle class="rg" cx="227" cy="292" r="3"/>
+  <circle class="rg" cx="146" cy="322" r="10"/>
+  <circle class="rg" cx="254" cy="322" r="10"/>
+  <path class="rg" d="M190,318 L210,318 L200,330 Z"/>
+  <path class="ln" d="M200,330 Q186,344 172,334"/>
+  <path class="ln" d="M200,330 Q214,344 228,334"/>
+  <path class="ln" d="M136,314 L104,306 M136,326 L102,328 M136,338 L106,350"/>
+  <path class="ln" d="M264,314 L296,306 M264,326 L298,328 M264,338 L294,350"/>
+  <!-- corona -->
+  <path class="rg" d="M162,240 L162,222 L176,234 L200,206 L224,234 L238,222 L238,240 Z"/>
+  <path class="rg" d="M162,238 L238,238 L238,254 Q200,264 162,254 Z"/>
+  <circle class="rg" cx="200" cy="202" r="8"/>
+  <circle class="rg" cx="176" cy="230" r="6"/>
+  <circle class="rg" cx="224" cy="230" r="6"/>
+  <circle class="rg" cx="200" cy="244" r="6"/>
+</svg>

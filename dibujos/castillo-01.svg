@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <rect class="rg fondo" x="4" y="4" width="392" height="512" rx="18"/>
+  <!-- cielo -->
+  <circle class="rg deco" cx="60" cy="66" r="26"/>
+  <path class="ln" d="M60,24 L60,12 M60,108 L60,120 M18,66 L6,66 M102,66 L114,66 M31,37 L22,28 M89,37 L98,28 M31,95 L22,104 M89,95 L98,104"/>
+  <path class="rg deco" d="M250,86 C242,68 260,54 276,60 C282,44 308,44 314,60 C332,58 342,76 330,88 Z"/>
+  <path class="rg deco" d="M112,128 C106,116 118,106 128,110 C132,100 148,100 152,110 C164,110 170,122 162,130 Z"/>
+  <path class="ln" d="M74,168 Q84,158 94,168 Q104,158 114,168"/>
+  <path class="ln" d="M300,150 Q310,140 320,150 Q330,140 340,150"/>
+  <path class="rg deco" transform="translate(352,214)" d="M0,-16 L4,-5.4 L15.2,-5 L6.5,2.1 L9.4,13 L0,6.8 L-9.4,13 L-6.5,2.1 L-15.2,-5 L-4,-5.4 Z"/>
+  <path class="rg deco" transform="translate(48,240)" d="M0,-16 L4,-5.4 L15.2,-5 L6.5,2.1 L9.4,13 L0,6.8 L-9.4,13 L-6.5,2.1 L-15.2,-5 L-4,-5.4 Z"/>
+  <!-- colinas -->
+  <path class="rg" d="M4,452 Q90,414 190,442 Q300,410 396,450 L396,516 L4,516 Z"/>
+  <path class="ln" d="M60,470 Q74,458 90,470"/>
+  <path class="ln" d="M320,466 Q336,452 352,466"/>
+  <!-- torres laterales -->
+  <path class="rg" d="M64,300 L128,300 L128,472 L64,472 Z"/>
+  <path class="rg" d="M272,300 L336,300 L336,472 L272,472 Z"/>
+  <path class="rg" d="M52,300 L96,224 L140,300 Z"/>
+  <path class="rg" d="M260,300 L304,224 L348,300 Z"/>
+  <path class="ln" d="M96,236 L96,196"/>
+  <path class="rg" d="M96,198 L134,208 L96,220 Z"/>
+  <path class="ln" d="M304,236 L304,196"/>
+  <path class="rg" d="M304,198 L342,208 L304,220 Z"/>
+  <path class="rg" d="M84,344 L84,330 Q96,318 108,330 L108,344 Z"/>
+  <path class="rg" d="M292,344 L292,330 Q304,318 316,330 L316,344 Z"/>
+  <!-- cuerpo central -->
+  <path class="rg" d="M120,256 L280,256 L280,472 L120,472 Z"/>
+  <path class="rg" d="M120,256 L120,222 L146,222 L146,256 L164,256 L164,222 L190,222 L190,256 L208,256 L208,222 L234,222 L234,256 L252,256 L252,222 L278,222 L278,256 Z"/>
+  <!-- torre central -->
+  <path class="rg" d="M168,150 L232,150 L232,268 L168,268 Z"/>
+  <path class="rg" d="M154,150 L200,72 L246,150 Z"/>
+  <path class="ln" d="M200,80 L200,42"/>
+  <path class="rg" d="M200,44 L242,56 L200,68 Z"/>
+  <path class="rg" d="M186,268 L186,196 Q200,180 214,196 L214,268 Z"/>
+  <path class="rg" d="M188,182 Q200,172 212,182 Z"/>
+  <!-- ventanas -->
+  <path class="rg" d="M134,320 L134,304 Q148,290 162,304 L162,320 Z"/>
+  <path class="rg" d="M238,320 L238,304 Q252,290 266,304 L266,320 Z"/>
+  <path class="rg" d="M186,118 Q200,106 214,118 Z"/>
+  <!-- puerta -->
+  <path class="rg" d="M172,472 L172,404 Q200,372 228,404 L228,472 Z"/>
+  <path class="ln" d="M200,382 L200,430"/>
+  <path class="rg" transform="translate(200,446)" d="M0,4 C-11,-6 -6,-16 0,-8 C6,-16 11,-6 0,4 Z"/>
+  <!-- camino -->
+  <path class="rg" d="M172,472 L228,472 L292,516 L108,516 Z"/>
+  <path class="ln" d="M164,492 L236,492"/>
+  <!-- arbustos -->
+  <circle class="rg" cx="86" cy="474" r="26"/>
+  <circle class="rg" cx="60" cy="482" r="18"/>
+  <circle class="rg" cx="316" cy="474" r="26"/>
+  <circle class="rg" cx="342" cy="482" r="18"/>
+</svg>

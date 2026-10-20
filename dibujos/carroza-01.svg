@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <rect class="rg fondo" x="4" y="4" width="392" height="512" rx="18"/>
+  <!-- luna y estrellas -->
+  <path class="rg deco" d="M92,42 C62,54 62,96 92,108 C74,92 74,58 92,42 Z"/>
+  <path class="rg deco" transform="translate(158,58)" d="M0,-18 L4.5,-6.2 L17,-5.6 L7.4,2.4 L10.7,14.6 L0,7.7 L-10.7,14.6 L-7.4,2.4 L-17,-5.6 L-4.5,-6.2 Z"/>
+  <path class="rg deco" transform="translate(316,74)" d="M0,-22 L5.5,-7.5 L21,-6.8 L8.9,2.9 L13,17.8 L0,9.4 L-13,17.8 L-8.9,2.9 L-21,-6.8 L-5.5,-7.5 Z"/>
+  <path class="rg deco" transform="translate(348,168)" d="M0,-16 L4,-5.4 L15.2,-5 L6.5,2.1 L9.4,13 L0,6.8 L-9.4,13 L-6.5,2.1 L-15.2,-5 L-4,-5.4 Z"/>
+  <path class="rg deco" transform="translate(52,190)" d="M0,-16 L4,-5.4 L15.2,-5 L6.5,2.1 L9.4,13 L0,6.8 L-9.4,13 L-6.5,2.1 L-15.2,-5 L-4,-5.4 Z"/>
+  <path class="rg deco" transform="translate(60,330)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <path class="rg deco" transform="translate(344,300)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <!-- suelo -->
+  <path class="rg" d="M4,456 Q200,438 396,456 L396,516 L4,516 Z"/>
+  <path class="ln" d="M56,482 Q74,470 92,482"/>
+  <path class="ln" d="M312,478 Q330,466 348,478"/>
+  <!-- ruedas -->
+  <circle class="rg" cx="104" cy="406" r="54"/>
+  <circle class="rg" cx="104" cy="406" r="40"/>
+  <circle class="rg" cx="104" cy="406" r="9"/>
+  <path class="ln" d="M104,397 L104,366 M113,406 L144,406 M104,415 L104,446 M95,406 L64,406 M110,400 L132,378 M98,412 L76,434 M110,412 L132,434 M98,400 L76,378"/>
+  <circle class="rg" cx="296" cy="406" r="54"/>
+  <circle class="rg" cx="296" cy="406" r="40"/>
+  <circle class="rg" cx="296" cy="406" r="9"/>
+  <path class="ln" d="M296,397 L296,366 M305,406 L336,406 M296,415 L296,446 M287,406 L256,406 M302,400 L324,378 M290,412 L268,434 M302,412 L324,434 M290,400 L268,378"/>
+  <!-- calabaza -->
+  <path class="rg" d="M200,190 C300,190 324,254 324,322 C324,388 274,420 200,420 C126,420 76,388 76,322 C76,254 100,190 200,190 Z"/>
+  <path class="ln" d="M200,192 C160,232 160,382 200,418"/>
+  <path class="ln" d="M200,192 C240,232 240,382 200,418"/>
+  <path class="ln" d="M200,192 C132,222 124,368 176,410"/>
+  <path class="ln" d="M200,192 C268,222 276,368 224,410"/>
+  <!-- puerta y ventanas -->
+  <path class="rg" d="M172,392 L172,320 Q200,286 228,320 L228,392 Z"/>
+  <circle class="rg" cx="200" cy="330" r="22"/>
+  <path class="ln" d="M178,330 L222,330 M200,308 L200,352"/>
+  <circle class="rg" cx="136" cy="316" r="20"/>
+  <path class="ln" d="M116,316 L156,316 M136,296 L136,336"/>
+  <circle class="rg" cx="264" cy="316" r="20"/>
+  <path class="ln" d="M244,316 L284,316 M264,296 L264,336"/>
+  <!-- escalon -->
+  <path class="rg" d="M178,392 L222,392 L232,414 L168,414 Z"/>
+  <!-- faroles -->
+  <path class="rg" d="M60,330 L84,330 L84,356 L60,356 Z"/>
+  <path class="rg" d="M54,330 L72,312 L90,330 Z"/>
+  <path class="rg" d="M316,330 L340,330 L340,356 L316,356 Z"/>
+  <path class="rg" d="M310,330 L328,312 L346,330 Z"/>
+  <!-- corona en lo alto -->
+  <path class="rg" d="M176,196 L176,178 L190,190 L200,166 L210,190 L224,178 L224,196 Z"/>
+  <path class="rg" d="M174,196 L226,196 L226,208 Q200,216 174,208 Z"/>
+  <circle class="rg" cx="200" cy="160" r="8"/>
+  <circle class="rg" cx="190" cy="186" r="5"/>
+  <circle class="rg" cx="210" cy="186" r="5"/>
+</svg>

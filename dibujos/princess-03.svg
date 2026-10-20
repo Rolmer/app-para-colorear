@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <rect class="rg fondo" x="4" y="4" width="392" height="512" rx="18"/>
+  <!-- decoracion -->
+  <path class="rg deco" d="M336,96 C324,94 318,82 324,72 C318,58 330,46 344,50 C350,36 372,36 378,50 C392,52 396,70 384,78 L384,96 Z"/>
+  <path class="rg deco" transform="translate(58,74)" d="M0,-20 L5,-6.8 L19,-6.2 L8.1,2.6 L11.8,16.2 L0,8.5 L-11.8,16.2 L-8.1,2.6 L-19,-6.2 L-5,-6.8 Z"/>
+  <path class="rg deco" transform="translate(342,180)" d="M0,5 C-16,-9 -9,-23 0,-12 C9,-23 16,-9 0,5 Z"/>
+  <path class="rg deco" transform="translate(50,222)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <path class="rg deco" transform="translate(348,392)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <!-- capa -->
+  <path class="rg" d="M104,266 C74,332 64,432 68,492 L332,492 C336,432 326,332 296,266 L262,266 C272,332 274,412 270,470 L130,470 C126,412 128,332 138,266 Z"/>
+  <path class="ln" d="M96,420 Q200,440 304,420"/>
+  <!-- cabello tipo bob -->
+  <path class="rg" d="M200,92 C138,92 122,146 124,206 C126,246 118,268 126,292 C160,304 240,304 274,292 C282,268 274,246 276,206 C278,146 262,92 200,92 Z"/>
+  <circle class="rg" cx="150" cy="180" r="10"/>
+  <circle class="rg" cx="250" cy="180" r="10"/>
+  <ellipse class="rg" cx="200" cy="182" rx="52" ry="58"/>
+  <!-- flequillo recto -->
+  <path class="rg" d="M200,94 C150,94 136,126 138,162 L262,162 C264,126 250,94 200,94 Z"/>
+  <!-- rasgos -->
+  <ellipse class="rg" cx="182" cy="186" rx="11" ry="13"/>
+  <ellipse class="rg" cx="218" cy="186" rx="11" ry="13"/>
+  <circle class="rg" cx="183" cy="188" r="5"/>
+  <circle class="rg" cx="219" cy="188" r="5"/>
+  <path class="ln" d="M170,166 Q182,159 194,166"/>
+  <path class="ln" d="M206,166 Q218,159 230,166"/>
+  <path class="ln" d="M197,196 Q205,202 197,205"/>
+  <path class="ln" d="M186,218 Q200,230 214,218"/>
+  <circle class="rg" cx="164" cy="212" r="9"/>
+  <circle class="rg" cx="236" cy="212" r="9"/>
+  <!-- cuello y corpinio -->
+  <path class="rg" d="M186,236 L186,258 L214,258 L214,236 Z"/>
+  <path class="rg" d="M186,256 C172,258 158,260 152,270 L148,330 L252,330 L248,270 C242,260 228,258 214,256 C210,271 190,271 186,256 Z"/>
+  <path class="rg" transform="translate(200,300)" d="M0,-16 L5,-5.4 L15.2,-5 L6.5,2.1 L9.4,13 L0,6.8 L-9.4,13 L-6.5,2.1 L-15.2,-5 L-5,-5.4 Z"/>
+  <ellipse class="rg" cx="140" cy="278" rx="29" ry="25"/>
+  <ellipse class="rg" cx="260" cy="278" rx="29" ry="25"/>
+  <!-- falda -->
+  <path class="rg" d="M148,328 L252,328 C300,366 320,434 322,474 L78,474 C80,434 100,366 148,328 Z"/>
+  <path class="rg" transform="translate(140,400)" d="M0,-14 L4.4,-4.8 L13.3,-4.3 L5.7,1.8 L8.2,11.3 L0,5.9 L-8.2,11.3 L-5.7,1.8 L-13.3,-4.3 L-4.4,-4.8 Z"/>
+  <path class="rg" transform="translate(200,430)" d="M0,-14 L4.4,-4.8 L13.3,-4.3 L5.7,1.8 L8.2,11.3 L0,5.9 L-8.2,11.3 L-5.7,1.8 L-13.3,-4.3 L-4.4,-4.8 Z"/>
+  <path class="rg" transform="translate(258,398)" d="M0,-14 L4.4,-4.8 L13.3,-4.3 L5.7,1.8 L8.2,11.3 L0,5.9 L-8.2,11.3 L-5.7,1.8 L-13.3,-4.3 L-4.4,-4.8 Z"/>
+  <!-- zapatos -->
+  <ellipse class="rg" cx="160" cy="490" rx="22" ry="12"/>
+  <ellipse class="rg" cx="240" cy="490" rx="22" ry="12"/>
+  <!-- brazo izquierdo en la cadera -->
+  <path class="rg" d="M132,292 C118,314 114,338 122,354 L142,348 C136,332 138,310 146,294 Z"/>
+  <circle class="rg" cx="130" cy="362" r="14"/>
+  <!-- brazo derecho con varita -->
+  <path class="rg" d="M254,266 C272,244 288,222 298,206 L312,218 C300,238 284,262 268,282 Z"/>
+  <circle class="rg" cx="308" cy="200" r="14"/>
+  <path class="rg" d="M310,192 L348,116 L356,120 L318,196 Z"/>
+  <path class="rg" transform="translate(356,106)" d="M0,-26 L6.5,-8.9 L24.7,-8 L10.5,3.4 L15.3,21 L0,11 L-15.3,21 L-10.5,3.4 L-24.7,-8 L-6.5,-8.9 Z"/>
+  <path class="ln" d="M324,84 L324,72 M292,112 L280,112 M304,84 L296,76 M344,80 L352,72"/>
+</svg>

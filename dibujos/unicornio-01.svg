@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <rect class="rg fondo" x="4" y="4" width="392" height="512" rx="18"/>
+  <!-- sol, nube y decoracion -->
+  <circle class="rg deco" cx="56" cy="66" r="24"/>
+  <path class="ln" d="M56,28 L56,16 M56,104 L56,116 M18,66 L6,66 M94,66 L106,66 M29,39 L20,30 M83,39 L92,30 M29,93 L20,102 M83,93 L92,102"/>
+  <path class="rg deco" d="M282,74 C274,56 292,44 306,50 C312,34 338,34 344,50 C362,48 372,66 360,78 Z"/>
+  <path class="rg deco" transform="translate(58,168)" d="M0,-20 L5,-6.8 L19,-6.2 L8.1,2.6 L11.8,16.2 L0,8.5 L-11.8,16.2 L-8.1,2.6 L-19,-6.2 L-5,-6.8 Z"/>
+  <path class="rg deco" transform="translate(348,200)" d="M0,-20 L5,-6.8 L19,-6.2 L8.1,2.6 L11.8,16.2 L0,8.5 L-11.8,16.2 L-8.1,2.6 L-19,-6.2 L-5,-6.8 Z"/>
+  <path class="rg deco" transform="translate(344,404)" d="M0,5 C-16,-9 -9,-23 0,-12 C9,-23 16,-9 0,5 Z"/>
+  <path class="rg deco" transform="translate(52,318)" d="M0,5 C-16,-9 -9,-23 0,-12 C9,-23 16,-9 0,5 Z"/>
+  <path class="rg deco" transform="translate(60,428)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <path class="rg deco" transform="translate(346,330)" d="M0,-11 L3.3,-3.3 L11,0 L3.3,3.3 L0,11 L-3.3,3.3 L-11,0 L-3.3,-3.3 Z"/>
+  <!-- melena ondulada -->
+  <path class="rg" d="M126,166 C100,190 92,224 98,254 Q84,266 96,284 Q84,300 98,318 Q88,340 100,358 Q94,378 108,392 C122,372 122,344 114,318 C104,286 100,240 112,204 C118,186 122,174 126,166 Z"/>
+  <path class="rg" d="M274,166 C300,190 308,224 302,254 Q316,266 304,284 Q316,300 302,318 Q312,340 300,358 Q306,378 292,392 C278,372 278,344 286,318 C296,286 300,240 288,204 C282,186 278,174 274,166 Z"/>
+  <!-- cuerno -->
+  <path class="rg" d="M184,222 L200,116 L216,222 Z"/>
+  <path class="ln" d="M189,202 Q200,195 211,202"/>
+  <path class="ln" d="M192,180 Q200,173 208,180"/>
+  <path class="ln" d="M195,158 Q200,152 205,158"/>
+  <!-- orejas -->
+  <path class="rg" d="M144,226 C130,192 148,166 172,172 C188,176 192,202 184,228 Z"/>
+  <path class="rg" d="M256,226 C270,192 252,166 228,172 C212,176 208,202 216,228 Z"/>
+  <!-- cabeza -->
+  <ellipse class="rg" cx="200" cy="300" rx="104" ry="104"/>
+  <ellipse class="rg" cx="200" cy="352" rx="68" ry="52"/>
+  <ellipse class="rg" cx="180" cy="360" rx="8" ry="6"/>
+  <ellipse class="rg" cx="220" cy="360" rx="8" ry="6"/>
+  <path class="ln" d="M180,378 Q200,394 220,378"/>
+  <!-- ojos -->
+  <ellipse class="rg" cx="158" cy="286" rx="19" ry="21"/>
+  <ellipse class="rg" cx="242" cy="286" rx="19" ry="21"/>
+  <circle class="rg" cx="159" cy="289" r="9"/>
+  <circle class="rg" cx="243" cy="289" r="9"/>
+  <circle class="rg" cx="154" cy="281" r="4"/>
+  <circle class="rg" cx="238" cy="281" r="4"/>
+  <path class="ln" d="M136,266 L126,256 M140,278 L128,276 M264,266 L274,256 M260,278 L272,276"/>
+  <circle class="rg" cx="136" cy="330" r="11"/>
+  <circle class="rg" cx="264" cy="330" r="11"/>
+  <!-- cuello y cuerpo -->
+  <path class="rg" d="M168,384 L232,384 L246,432 L154,432 Z"/>
+  <path class="rg" d="M128,444 C128,406 160,388 200,388 C240,388 272,406 272,444 L272,478 C272,498 256,508 232,508 L168,508 C144,508 128,498 128,478 Z"/>
+  <path class="ln" d="M132,486 L268,486"/>
+  <path class="rg" d="M130,440 C110,452 104,478 118,498 C124,482 130,466 144,456 Z"/>
+  <path class="rg" transform="translate(200,430)" d="M0,4 C-12,-7 -7,-18 0,-9 C7,-18 12,-7 0,4 Z"/>
+</svg>

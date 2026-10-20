@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colorea y Pinta · Dibujos para colorear online</title>
+  <meta name="description" content="App para colorear online dibujos de princesas, unicornios, castillos y amigos. Elige color, pinta las zonas y descarga o imprime tu lámina.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='11' cy='11' r='6' fill='%23ff5d8f'/%3E%3Ccircle cx='22' cy='14' r='5' fill='%233a86ff'/%3E%3Ccircle cx='16' cy='23' r='6' fill='%23ffb703'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="marca">
+      <span class="logo" aria-hidden="true">🎨</span>
+      <div>
+        <h1>Colorea y Pinta</h1>
+        <p class="lema">Dibujos para colorear online: princesas, unicornios y castillos</p>
+      </div>
+    </div>
+    <nav class="cabecera-acciones">
+      <button id="btn-ayuda" class="boton fantasma" type="button">❓ Cómo se juega</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ GALERÍA ============ -->
+    <section id="vista-galeria" class="vista">
+      <div class="presentacion">
+        <h2>Elige tu lámina</h2>
+        <p>Toca un dibujo, coge tus colores favoritos y píntalo a tu gusto. Al terminar puedes descargarlo o imprimirlo.</p>
+      </div>
+
+      <div id="zona-subir" class="zona-subir">
+        <input type="file" id="archivo" accept="image/png,image/jpeg,image/webp" multiple hidden>
+        <button id="btn-subir" class="boton primario grande" type="button">⬆️ Subir mi dibujo (PNG o JPG)</button>
+        <p class="ayuda-subir">También puedes <strong>arrastrar la imagen aquí</strong> o pegarla con <strong>Ctrl+V</strong>. Se guarda en este navegador y la coloreas con las mismas herramientas.</p>
+      </div>
+
+      <div id="filtros" class="filtros" role="tablist" aria-label="Categorías de dibujos"></div>
+      <div id="rejilla" class="rejilla"></div>
+      <p id="galeria-vacia" class="vacio oculto">Todavía no hay láminas en esta categoría.</p>
+    </section>
+
+    <!-- ============ TALLER ============ -->
+    <section id="vista-taller" class="vista oculto">
+      <div class="taller">
+        <aside class="panel">
+          <button id="btn-volver" class="boton fantasma" type="button">← Volver a la galería</button>
+          <h2 id="titulo-lamina" class="titulo-lamina">Lámina</h2>
+          <p id="categoria-lamina" class="categoria-lamina"></p>
+
+          <fieldset class="grupo">
+            <legend>Herramientas</legend>
+            <div class="herramientas">
+              <button class="boton herramienta activa" type="button" data-herramienta="relleno" title="Relleno (tecla R)">🪣 <span>Relleno</span></button>
+              <button class="boton herramienta" type="button" data-herramienta="pincel" title="Pincel (tecla P)">🖌️ <span>Pincel</span></button>
+              <button class="boton herramienta" type="button" data-herramienta="borrador" title="Borrador (tecla B)">🧽 <span>Borrador</span></button>
+            </div>
+          </fieldset>
+
+          <fieldset class="grupo">
+            <legend>Colores</legend>
+            <div id="paleta" class="paleta" role="group" aria-label="Paleta de colores"></div>
+            <label class="color-libre">
+              <span>Otro color</span>
+              <input type="color" id="color-libre" value="#ff5d8f" aria-label="Elegir otro color">
+            </label>
+          </fieldset>
+
+          <fieldset class="grupo">
+            <legend>Grosor</legend>
+            <div class="fila">
+              <input type="range" id="grosor" min="2" max="40" step="1" value="10" aria-label="Grosor del pincel">
+              <output id="grosor-valor" for="grosor">10</output>
+            </div>
+          </fieldset>
+
+          <fieldset class="grupo oculto" id="grupo-raster">
+            <legend>Tu imagen</legend>
+            <div class="fila">
+              <label class="etiqueta-rango" for="tolerancia">Tolerancia</label>
+              <input type="range" id="tolerancia" min="0" max="120" step="1" value="40" aria-label="Tolerancia del relleno">
+              <output id="tolerancia-valor" for="tolerancia">40</output>
+            </div>
+            <label class="casilla"><input type="checkbox" id="respetar-lineas" checked> Respetar las líneas negras</label>
+            <p class="nota-grupo">Tolerancia baja: pinta solo tonos casi iguales. Alta: cruza sombras y colores parecidos.</p>
+          </fieldset>
+
+          <fieldset class="grupo">
+            <legend>Acciones</legend>
+            <div class="acciones">
+              <button id="btn-deshacer" class="boton" type="button">↶ Deshacer</button>
+              <button id="btn-rehacer" class="boton" type="button">↷ Rehacer</button>
+              <button id="btn-limpiar" class="boton peligro" type="button">🧼 Borrar todo</button>
+              <button id="btn-descargar" class="boton" type="button">⬇️ Descargar PNG</button>
+              <button id="btn-descargar-svg" class="boton" type="button">🖼️ Descargar SVG</button>
+              <button id="btn-imprimir" class="boton" type="button">🖨️ Imprimir</button>
+              <button id="btn-terminado" class="boton exito" type="button">🎉 ¡Terminé!</button>
+            </div>
+          </fieldset>
+
+          <p id="progreso" class="progreso"></p>
+        </aside>
+
+        <div class="area-lienzo">
+          <div id="lienzo-caja" class="lienzo-caja" role="img" aria-label="Lámina para colorear"></div>
+          <p id="pista" class="pista">Toca una zona del dibujo para rellenarla con el color elegido.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>Dibujos originales para pintar en casa o en clase. Tu progreso se guarda en este navegador.</p>
+  </footer>
+
+  <div id="aviso" class="aviso oculto" role="status" aria-live="polite"></div>
+
+  <dialog id="ayuda" class="dialogo">
+    <h2>Cómo se juega</h2>
+    <ul>
+      <li><strong>🪣 Relleno:</strong> toca una zona del dibujo y se pinta con el color elegido. Si arrastras, pintas varias zonas seguidas.</li>
+      <li><strong>🖌️ Pincel:</strong> dibuja a mano alzada y cambia el grosor con el deslizador.</li>
+      <li><strong>🧽 Borrador:</strong> pasa por encima de un trazo para quitarlo, o toca una zona pintada para dejarla como estaba.</li>
+      <li><strong>⬆️ Tus dibujos:</strong> pulsa «Subir mi dibujo», arrastra una imagen PNG o JPG, o pégala con Ctrl+V. Se colorean igual que las láminas: el relleno respeta las líneas negras y puedes ajustar la <em>tolerancia</em> si tu imagen tiene sombras.</li>
+      <li><strong>↶ Deshacer</strong> y <strong>↷ Rehacer</strong> (Ctrl+Z, Ctrl+Y) para corregir sin miedo.</li>
+      <li>Puedes <strong>descargar</strong> tu lámina e <strong>imprimirla</strong> cuando quieras. El dibujo se guarda solo: cierra la página y sigue pintando otro día.</li>
+    </ul>
+    <form method="dialog"><button class="boton primario" type="submit">¡Entendido!</button></form>
+  </dialog>
+
+  <script src="js/dibujos.js"></script>
+  <script src="js/nucleo.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
